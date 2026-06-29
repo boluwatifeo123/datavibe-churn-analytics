@@ -14,20 +14,3 @@ DataVibe splits analytical and reasoning tasks into distinct roles to ensure dat
 2. **Code Execution Engineer Agent:** Translates the Schema Router's profile into an isolated Python data science script utilizing `pandas`, `numpy`, and `seaborn`.
 3. **Local Subprocess Tool Sandbox:** Runs the generated code locally under a 30-second execution cutoff, intercepts stdout logs, catches runtime exceptions for dynamic agent self-correction loops, and exports high-resolution visual correlations (`churn_heatmap.png`).
 4. **Executive Critic Agent:** Reads the verified statistical console output, synthesizes a structured Markdown business report, and powers a stateful conversational memory array for user deep-dives.
-
----
-
-## 🛠️ Local Installation & Setup (100% Free Tier)
-
-This application runs entirely on your local machine using a free-tier Google AI Studio key. No credit card or billing profile is required.
-
-### 1. Clone and Configure the Directory
-Ensure your local project directory structure is set up exactly as follows:
-```text
-churn_analyst_agent/
-│
-├── app.py                 # Streamlit Frontend Dashboard
-├── agent_engine.py        # Core ADK Pipeline Orchestration
-├── tools/
-│   └── code_runner.py     # Subprocess Compiler Sandbox
-└── requirements.txt       # System Dependencies
