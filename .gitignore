@@ -1,0 +1,16 @@
+# Sensitive environment variables
+.env
+
+# Python virtual environment
+.venv/
+venv/
+pyvenv.cfg
+
+# Python compiler caching clutter
+__pycache__/
+*.pyc
+
+# Optional: Debugging logs or massive datasets (uncomment if you want to ignore them)
+pipeline_debug_output.json
+Churn_Modelling.csv
+test_run.py
